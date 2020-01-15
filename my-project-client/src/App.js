@@ -8,17 +8,17 @@ class App extends Component {
 
   constructor(props){
     super(props)
-    let messages=[]
+    let wishes=[]
     for (let i=0; i<100;i++){
-      messages.push(`Hello ${i}`)
+      wishes.push(`Hello ${i}`)
     }
-    this.state={messages:messages}
+    this.state={wishes:wishes}
   }
 
   generateFlyingWishes = () => {
     //generate three-five(?) random numbers and make a div/li for each of them which will fly around the screen
     //upon hover, becomes animated(invites user to click)
-    //upon clicking .... () 
+    //upon clicking .... ()
   }
 
   render(){
