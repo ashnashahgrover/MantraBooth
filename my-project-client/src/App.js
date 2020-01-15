@@ -9,8 +9,7 @@ function App() {
     <div>
       {/*<header className="App-header">
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
-
-        <video
+        {/*<video
         style={{
           position: "fixed",
           width: "100%",
@@ -19,7 +18,10 @@ function App() {
         }}
         autoPlay loop muted>
         <source src={movie}  />
-        </video>
+        </video>*/}
+        <div class="el-wrap x">
+        <div class="el y">HELLO</div>
+        </div>
 {/*
         <p>
           Edit <code>src/App.js</code> and save to reload.
